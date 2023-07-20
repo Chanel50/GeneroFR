@@ -1,0 +1,14 @@
+.paper {
+    width: 100%; /* Set the initial width to 100% to make it fluid */
+    max-width: 700px; /* Set the maximum width to 700px */
+    height: 720px;
+}
+
+
+/* Media query for screens smaller than 700px */
+@media (max-width: 700px) {
+    .paper {
+        width: 100%; /* Adjust the width to fit the smaller screen */
+        height: auto; /* Allow the height to adjust based on content */
+    }
+}

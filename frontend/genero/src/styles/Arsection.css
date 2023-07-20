@@ -1,0 +1,77 @@
+
+.position-relative {
+    position:relative !important
+}
+
+.bg-primary {
+    background-color: #f5b921;
+}
+
+.overflow-hidden {
+  overflow: hidden!important;
+}
+
+
+
+
+.start-0 {
+left: 0!important;
+}
+
+.top-0 {
+top: 0!important;
+}
+
+.position-absolute {
+position: absolute!important;
+}
+
+figure {
+margin-bottom: 0;
+}
+
+figure {
+margin: 0 0 1rem;
+}
+.display-4 {
+font-size: 3.5rem;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.zi-2 {
+  z-index: 2!important;
+}
+
+.content-space-md-5 {
+padding-top: 5.5rem!important;
+padding-bottom: 1.5rem!important;
+}
+
+.btny {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #f5b921;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+
+.mbt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .text-white{
+    font-size: 20px;
+  }
+
+

@@ -1,0 +1,175 @@
+h1, 
+h2,
+h3 {
+  
+    font-weight: 400;
+    color: #f5b921;
+    margin-top: 0;
+}
+h1{
+  font-size: 2rem;
+  margin: 0;
+}
+h2 {
+    font-weight: 700;
+    color: #000;
+    font-size: 1.75rem;
+   
+    
+}
+a {
+    color: #1792d2;
+}
+
+
+a:focus {
+    color: #f5b921;
+}
+
+strong {
+    font-weight: 700;
+}
+.subtitle{
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin: 0;
+  color: #1792d2;
+  letter-spacing: 0.05em;
+  font-family: 'Ubuntu Bold', sans-serif;
+}
+.article-title {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #f5b921;
+}
+.article-featured {
+   margin: 20px;
+}
+
+.widget-title{
+  font-size: 30px;
+  margin: 20px;
+}
+.article-read-more,
+.article-info {
+    font-size: .875rem;
+}
+
+.article-read-more {
+    color: #4f86c6;
+    text-decoration: none;
+    font-weight: 700;
+}
+.article-read-more:hover,
+.article-read-more:focus {
+    color: #4f86c6;
+    text-decoration: underline;
+}
+.article-info {
+    margin: 2em 0;
+}
+.widget-recent-post-title{
+  font-weight: bold;
+ margin: 5px;
+}
+header{
+  padding: 2em 0;
+  text-align: center;
+  background: #f0f8ff;
+  font-family: sans-serif;
+  margin-bottom: 3em;
+}
+.containerb-flex{
+  max-width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.blogtitre{
+    color: #f5b921;
+}
+.imgb{
+ width: 200px;
+ height: 200px;
+  display: block;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.imgb:hover{
+  scale: 1.1;
+}
+
+main{
+  max-width: 75%;
+}
+.article-body{
+  width: 100%;
+  text-align: justify;
+}
+.sidebar{
+  max-width: 23%;
+}
+
+@media (max-width:1050px){
+  .containerb-flex{
+    flex-direction: column;
+  }
+  .site-title, .subtitle{
+    width: 100%;
+  }
+  main{
+    max-width: 100%;
+  }
+  .sidebar{
+    max-width: 100%;
+  }
+  
+}
+@media (max-width: 500px){
+  nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+  nav li{
+    margin: 0.5em 0;
+  }
+}
+
+/* articles */
+.article-featured {
+    border-bottom: #707070 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+.article-recent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.article-recent-main {
+    order: 2;
+}
+
+.article-recent-secondary {
+    order: 1;
+}
+
+@media (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .article-recent-main {
+        width: 68%;
+        margin: 40px;
+    }
+    
+    .article-recent-secondary {
+        width: 30%;
+    }
+}

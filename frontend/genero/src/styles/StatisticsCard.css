@@ -1,0 +1,111 @@
+.containerstat {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+  
+
+.counter-box {
+	display: block;
+    justify-content: center;
+    align-items: center;
+	background: #f6f6f6;
+	padding: 40px 20px 37px;
+	text-align: center
+}
+.constat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.messenger-icon {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center; }
+  
+
+.row{
+    display: block;
+    margin: auto;
+   width: 800px;
+}
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #909090;
+	font-size: 18px;
+	font-weight: 500
+}
+
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	color: #d2d2d2
+}
+
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #666;
+	line-height: 28px
+}
+
+.counter-box.colored {
+      background: #f5b921;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.counter-box.colored1 {
+    background: #d4d4d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gap-4 {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.four{
+    
+    display: block;
+  
+   
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+	color: #fff
+}
+
+
+@media (max-width: 1000px) {
+    .containerstat {
+      width: 580px;
+    }
+  }
+  @media (max-width: 650px) {
+    .containerstat {
+      width: 300px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .containerstat {
+      width: 380px;
+    }
+  }

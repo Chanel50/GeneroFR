@@ -1,0 +1,54 @@
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+  }
+  
+  main{
+    max-width:900px;
+  
+    margin:0 auto;
+    
+  }
+  .landing-page {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('/public/images/im16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .landing-text-inner{
+    background:rgba(0,0,0,0.6);
+    padding:5rem 3rem;
+    color:#fff;
+    display:block;
+    width:75%
+  }
+  .btnn {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f5b921;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnn:hover {
+    background-color: #f5b921;
+  }
+  

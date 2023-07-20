@@ -1,0 +1,25 @@
+.ser{
+    color: white;
+    background: scroll;
+    background-color: #f5b921 ;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+
+}
+.iser {
+    width: 280px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #f5b921;
+    border-color: #f5b921; 
+  }
+  
+
+.container8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
